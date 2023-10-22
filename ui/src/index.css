@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100% !important;
+}
+
+#root {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.rs-panel-body {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.AppWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.wd100 {
+  width: 100%;
+}
+
+.pd-b-0 .rs-panel-body {
+  padding-bottom: 0 !important;
+}
+
+.pn-bd-align .rs-panel-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.sm_header .rs-panel-header {
+  padding-block: 0.3rem !important;
+}
+
+.sm_header_bt .rs-panel-header {
+  padding-bottom: 0rem !important;
+}
+
+.tournament-item {
+  padding-inline: 0.5rem;
+  cursor: pointer;
+}
+
+.tour-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.2rem;
+}
+
+.tour-name {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.tour-item-first {
+  display: flex;
+  align-items: top;
+}
+
+.tour-item-meta {
+  padding-inline: 1rem;
+}
+
+.tour-difficulty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tour-item-last {
+  height: 5rem;
+}
+
+.tour-item-meta-last {
+  height: 100%;
+}
+
+.ladder-match {
+  display: flex;
+  flex-direction: column;
+  background-color: #141822;
+  border: 2px solid #1a1d27;
+  border-radius: 0.2rem;
+  margin-block: 1rem;
+  width: 15rem;
+}
+
+.ladder-match span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-block: 0.2rem;
+  height: 2rem;
+  position: relative;
+}
+
+.ladder-match .ladder-match-score {
+  position: absolute;
+  right: 0;
+  border: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+.ladder-match span:last-child {
+  border-top: 2px solid #1a1d27;
+}
+
+.tour-search {
+  margin-top: 0.5rem;
+}
+
+.bd-r {
+  border-radius: 0.3rem;
+}
+
+.ladder-match .winner {
+  background-color: #2a472e;
+}
+
+.ladder-match .loser {
+  background-color: #542d2d;
+}
+
+.last-matches-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7rem;
+  padding-block: 1.5rem;
+  padding-inline: 1rem;
+  flex-direction: column;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.last-matches-wrapper:hover {
+  background-color: #232a37;
+}
+ 
+.last-matches-score {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.last-matches-names-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mg-lf-1 {
+  margin-left: 0.5rem;
+}
